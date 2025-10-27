@@ -1,6 +1,6 @@
 {
   "TYPE" : "Workflow",
-  "version" : "1.8.0",
+  "version" : "1.8.2",
   "timeZone" : "Asia/Calcutta",
   "instructions" : [ {
     "TYPE" : "Execute.Named",
@@ -9,7 +9,7 @@
   } ],
   "jobs" : {
     "job" : {
-      "agentName" : "LinuxAgent",
+      "agentName" : "standalone",
       "withSubagentClusterIdExpr" : false,
       "executable" : {
         "TYPE" : "ShellScriptExecutable",
@@ -17,6 +17,7 @@
         "v1Compatible" : false
       },
       "skipIfNoAdmissionForOrderDay" : false,
+      "killAtEndOfAdmissionPeriod" : false,
       "parallelism" : 1,
       "graceTimeout" : 1,
       "failOnErrWritten" : false,
