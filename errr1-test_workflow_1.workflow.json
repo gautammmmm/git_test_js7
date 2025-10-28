@@ -4,11 +4,11 @@
   "timeZone" : "Asia/Calcutta",
   "instructions" : [ {
     "TYPE" : "Execute.Named",
-    "jobName" : "job",
+    "jobName" : "jobsdf",
     "label" : "job"
   } ],
   "jobs" : {
-    "job" : {
+    "jobsdf" : {
       "agentName" : "LinuxAgent",
       "withSubagentClusterIdExpr" : false,
       "executable" : {
