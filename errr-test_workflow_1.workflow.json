@@ -4,16 +4,16 @@
   "timeZone" : "Asia/Calcutta",
   "instructions" : [ {
     "TYPE" : "Execute.Named",
-    "jobName" : "jober",
+    "jobName" : "asdfad",
     "label" : "jobere"
   } ],
   "jobs" : {
-    "jober" : {
+    "asdfad" : {
       "agentName" : "LinuxAgent",
       "withSubagentClusterIdExpr" : false,
       "executable" : {
         "TYPE" : "ShellScriptExecutable",
-        "script" : "exit 1",
+        "script" : "asd",
         "v1Compatible" : false
       },
       "skipIfNoAdmissionForOrderDay" : false,
